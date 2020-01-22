@@ -1,0 +1,539 @@
+*:focus {
+    outline: none;
+}
+.cell {
+    font-family:sans-serif;
+    font-size: 19px;
+    resize: none;
+    width: 60px;
+    height: 54px;
+    text-align:center;
+    padding: 6px 0px 0px 0px;
+    margin: 0px 5px 1px 0px;
+    border-style: none;
+    position: absolute;
+}
+.ecell {
+    width: 60px;
+    height: 60px;
+    margin: 0px 5px 1px 0px;
+    border-style: none;
+    position:absolute;
+    background-color: lightgray;
+}
+.scell {
+    background-color: chartreuse;
+}
+.dcell {
+    background-color: lightblue;
+}
+button {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body {
+    background-image: url('grad800.png');
+    background-repeat: repeat-x;
+    background-color: white;
+}
+.singleton {
+    font-size: 44px;
+}
+.oddcolor {
+    background-color: lightgray;
+}
+.evencolor {
+    background-color: lightblue;
+}
+.rightedge {
+    margin-right: 0;
+}
+.bottomedge {
+    margin-bottom: -4px;
+}
+.vbar {
+    height: 60px;
+    width: 5px;
+    position:absolute;
+}
+.hbar {
+    height: 5px;
+    width: 60px;
+    position:absolute;    
+}
+.tBox {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-size:10px;
+    text-align:left;
+    height:12px;
+    width: 16px;
+    position:absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding-left: 2px;
+    cursor:pointer;
+    -webkit-user-select: none; /* Chrome, Opera, Safari */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+.totalBox {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-size:20px;
+    text-align:right;
+    height:24px;
+    width: 40px;
+    display:inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding-right: 2px;
+    
+}
+.centre {
+    margin-left: auto;
+    margin-right: auto;
+    width: 145px;
+}
+.centreB {
+    width: 100px;
+}
+.selected {
+    background-color: lightyellow;
+}
+.red {
+    color: red;
+}
+.backRed {
+    background-color: red;
+}
+.dtop {
+    position:relative;
+    left: 0px;
+    top: 0px;
+    height: 600px;
+} 
+#logo {
+    margin-left: 10px;
+    float:left;
+}
+#mainbox {
+    position: absolute;
+    top: 0px;
+    left: 260px;
+    background-color: white;
+    width: 580px;
+    height: 580px;
+    padding: 0;;
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+}
+#mainboxcreate {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    width: 580px;
+    height: 580px;
+    padding: 0;;
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+    margin: 0 auto;
+}
+#sidebox {
+    position:absolute;
+    top: 0px;
+    left: 850px;
+    border-style:solid;
+    border-color: gray;
+    height:582px;
+    width: 160px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: gray;
+    text-align: center;
+}
+#listbox {
+    position:absolute;
+    top: 0px;
+    left: 5px;
+    border-style:solid;
+    border-color: gray;
+    height:582px;
+    width: 240px;
+    margin-left: 5px;
+    margin-right: 0px;
+    background-color: gray;
+}
+#scrollbox {
+    margin: 5px;
+    overflow-y: scroll;
+    height: 560px;
+    width: 230px;
+    background-color:beige;
+    padding-top: 12px;
+}
+#credenza {
+    height:570px;
+    width:230px;
+    position:absolute;
+    top:-540px;
+    left:0px;
+    background-image: url('slat.png');
+    background-repeat: repeat;
+    pointer-events:all;
+}
+#handle {
+    position: absolute;
+    top: 540px;
+    left: 75px;
+    pointer-events:all;
+    height:28px;
+    width: 80px;
+}
+.handle {
+    position: absolute;
+    top: 0px;
+}
+#crframe {
+    height:572px;
+    width:232px;
+    position:absolute;
+    top:3px;
+    left:3px;  
+    overflow-y:hidden;
+    pointer-events: none;
+    background-color: transparent;
+    border-style:inset;
+    border-top-color: black;
+    border-left-color: black;
+    border-bottom-color:lightgrey;
+    border-right-color:lightgrey;
+}
+#bottombar {
+    width: 1200px;
+}
+.showlist {
+    float:right;
+    font-family:sans-serif;
+    font-size:16px;
+    width: 22px;
+    height: 30px;
+    text-align:center;
+    padding-top:8px;
+}
+.showlist:hover {
+    color:red;
+}
+.pShow {
+    float:left;
+    font-family:sans-serif;
+    font-size:16px;
+    height: 30px;
+    text-align:center;
+    padding-top:8px;
+}
+#showbar {
+    width: 300px;
+    background-color:transparent;
+    border-style: solid;
+    border-color: darkgreen;
+    border-width: 2px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    float:left;
+    margin-left: 27px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor:pointer;
+    height:36px;
+}
+#stepbar {
+    width: 230px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 2px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+    float:left;
+    margin-left: 12px;
+    padding: 5px;
+    padding-bottom: 7px;
+}
+#bookmarksbar {
+    width: 380px;
+    background-color:transparent;
+    border-style: solid;
+    border-color:darkgoldenrod;
+    border-width: 2px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+    float:left;
+    margin-left: 27px;
+    padding: 5px;
+}
+.bookmarkdata {
+    font-size: 16px;
+    display:inline-block;
+    margin-bottom:4px;
+}
+#floatcentre {
+    height:800px;
+    margin:0 auto;
+    width: 1020px;
+}
+#poss {
+    border-style: inset;
+    border-width: 2px;
+    border-top-color: black;
+    border-left-color: black;
+    border-bottom-color: lightgrey;
+    border-right-color: lightgrey;
+    margin: auto;
+    display:block;
+    width: 140px;
+    height: 400px;
+    resize:none;
+    background-color: azure;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.possent {
+    border-style: inset;
+    border-width: 2px;
+    border-top-color: black;
+    border-left-color: black;
+    border-bottom-color: lightgrey;
+    border-right-color: lightgrey;
+    margin: 0 auto;
+    display: inline-block;
+    width: 35px;
+    height: 20px;
+    background-color: azure;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    
+}
+.incl {
+    color: azure;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.stop {
+    padding-left: 25px;
+}
+.popup {
+  position: absolute;
+  top: 240px;
+  left: 190px;
+  width: 200px;
+  height: 155px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 10px 10px 5px dimgrey;
+  border-radius: 5px;
+  resize: none;
+  text-align: center;
+}
+.popupq {
+  position: absolute;
+  top: 240px;
+  left: 190px;
+  width: 200px;
+  height: 155px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 10px 10px 5px dimgrey;
+  border-radius: 5px;
+  resize: none;
+  text-align: center;
+  background-color: beige
+}
+#msgtxt {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+#msgq {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+#OKbutton {
+  position: absolute;
+  top: 80px;
+  width: 100px;
+  left: 50px;
+}
+.warning {
+    border-color: red;
+    background-color: white;
+    color: maroon;
+}
+.notice {
+    border-color: darkgray;
+    background-color: lightgray;
+    color: black;
+}
+.success {
+    border-color: blue;
+    background-color: azure;
+    color: darkblue;
+}
+.radioText {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.topbar {
+    width: 1010px;
+    height: 50px;
+    display: inline-block;
+    background-color:transparent;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 1px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+.topdata {
+    font-family: sans-serif;
+    font-size: 24px;
+    float:left;
+    margin: 0px;
+    padding-top: 10px;
+    margin-left:20px;
+    font-weight: lighter;
+}
+#createlink {
+    float:right;
+    font-family: sans-serif;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-weight: lighter;
+    color:aliceblue;
+    font-style:italic;
+}
+.gameEntry{
+    width: 228px;
+    height: 16px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+.gameEntry:hover {
+    background-color: azure;
+}
+.gameNo {
+    width: 38px;
+    height: 14px;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    float:left;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.gameDifficulty {
+    width: 85px;
+    height: 14px;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    float:left;
+    padding-left: 3px;
+    padding-right: 3px;
+    
+}
+.gameDate {
+    width: 75px;
+    height: 14px;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    float:left; 
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.space {
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.totin {
+    top: 280px;
+    left: 220px;
+    position: absolute;
+    border-style:solid;
+    background-color: white;
+    border-width: 1px;
+    border-color: black;
+    height: 20px;
+    width: 90px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.totin2 {
+    position:absolute;
+    height:20px;
+    width:55px;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-style:solid;
+    background-color: white;
+    border-width: 1px;
+    border-color: black;
+    top: 280px;
+    left: 315px;
+    color:black;
+    padding-left: 2px;
+    
+}
+img {
+    -webkit-user-select: none; /* Chrome, Opera, Safari */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+#createtot {
+    width: 105px;
+}
+#createtotno {
+    padding-left: 10px;
+}
+select {
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+}
+.gm {   
+    font-size: 24px;
+    background-color: transparent;
+    float: left;
+    padding-left: 5px;
+}
+#gameid {
+    width: 105px;
+    margin-left: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: white;
+}

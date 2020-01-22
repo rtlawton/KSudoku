@@ -1,0 +1,301 @@
+.ecell {
+    width: 60px;
+    height: 60px;
+    margin: 0px 5px 1px 0px;
+    border-style: none;
+    position:absolute;
+    background-color: lightgray;
+}
+.scell {
+    background-color: chartreuse;
+}
+.dcell {
+    background-color: lightblue;
+}
+.ncell {
+    background-color: aliceblue;
+}
+button {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body {
+    background-image: url('grad800.png');
+    background-repeat: repeat-x;
+    background-color: white;
+}
+.vbar {
+    height: 60px;
+    width: 5px;
+    position:absolute;
+}
+.hbar {
+    height: 5px;
+    width: 60px;
+    position:absolute;    
+}
+.red {
+    color: red;
+}
+.backRed {
+    background-color: red;
+}
+#logo {
+    margin-left: 10px;
+    float:left;
+}
+#mainboxcreate {
+    position: relative;
+    top: 0px;
+    left: 120px;
+    background-color: white;
+    width: 580px;
+    height: 580px;
+    padding: 0;;
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+    float: left;
+}
+#bottombar {
+    width: 910px;
+    margin-top: 10px;
+    float: left;
+    padding-left: 200px;
+}
+#stepbar {
+    width: 230px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 2px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+    float:left;
+    margin-left: 12px;
+    padding: 5px;
+    padding-bottom: 7px;
+}
+#floatcentre {
+    height:800px;
+    margin:0;
+    width: 1320px;
+}
+.popup {
+  position: absolute;
+  top: 280px;
+  left: 610px;
+  width: 200px;
+  height: 155px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 10px 10px 5px dimgrey;
+  border-radius: 5px;
+  resize: none;
+  text-align: center;
+}
+#msgtxt {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+#msgq {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+#OKbutton {
+  position: absolute;
+  top: 80px;
+  width: 100px;
+  left: 50px;
+}
+.warning {
+    border-color: red;
+    background-color: white;
+    color: maroon;
+}
+.notice {
+    border-color: darkgray;
+    background-color: lightgray;
+    color: black;
+}
+.success {
+    border-color: blue;
+    background-color: azure;
+    color: darkblue;
+}
+.topbar {
+    width: 900px;
+    height: 50px;
+    display: inline-block;
+    background-color:transparent;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 1px;
+    margin-bottom: 5px;
+    margin-left: 270px;
+}
+.topdata {
+    font-family: sans-serif;
+    font-size: 24px;
+    float:left;
+    margin: 0px;
+    padding-top: 10px;
+    margin-left:20px;
+    font-weight: lighter;
+}
+.gameEntry{
+    width: 228px;
+    height: 16px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+.gameEntry:hover {
+    background-color: azure;
+}
+.gameNo {
+    width: 38px;
+    height: 14px;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    float:left;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.gameDifficulty {
+    width: 85px;
+    height: 14px;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    float:left;
+    padding-left: 3px;
+    padding-right: 3px;
+    
+}
+.gameDate {
+    width: 75px;
+    height: 14px;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    float:left; 
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.space {
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.totin {
+    top: 280px;
+    left: 220px;
+    position: absolute;
+    border-style:solid;
+    background-color: white;
+    border-width: 1px;
+    border-color: black;
+    height: 20px;
+    width: 90px;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.totin2 {
+    position:absolute;
+    height:20px;
+    width:55px;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-style:solid;
+    background-color: white;
+    border-width: 1px;
+    border-color: black;
+    top: 280px;
+    left: 315px;
+    color:black;
+    padding-left: 2px;
+    outline:none;
+    
+}
+img {
+    -webkit-user-select: none; /* Chrome, Opera, Safari */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+#createtot {
+    width: 105px;
+}
+#createtotno {
+    padding-left: 10px;
+}
+select {
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+}
+.gm {   
+    font-size: 24px;
+    background-color: transparent;
+    float: left;
+    padding-left: 5px;
+}
+#gameid {
+    width: 105px;
+    margin-left: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: white;
+}
+#buttonbar {
+    width: 310px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: darkred;
+    border-width: 2px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    padding-bottom: 7px;
+}
+#screen {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 580px;
+    height: 580px;
+    background-color: rgba(0,0,0,0.2); /* Black w/ opacity */
+}
+.modal-content {
+    display:none;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+#ksd {;
+    position:relative;
+    left: 120px;
+    float:left;
+    width: 580px;
+    height: 580px;
+}
+#ksdo {
+    width:580px;
+    height:580px;
+    overflow:auto;
+    border:5px ridge blue
+}
